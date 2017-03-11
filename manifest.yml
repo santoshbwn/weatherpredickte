@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: weatherpredickte
+  host: weatherpredickte
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Weather Company Data-59
